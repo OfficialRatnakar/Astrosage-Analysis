@@ -1,8 +1,4 @@
-Here is a **premium, polished, GitHub-ready README.md** with a professional layout, badges, structured sections, and clean wording.
-This is suitable for employers, recruiters, and portfolio showcase.
-(Just paste into GitHub.)
 
----
 
 # 🌟 AstroSage Call Centre Data Analysis
 
@@ -149,7 +145,8 @@ This multi-dimensional dataset enables operational, financial, and behavioral an
 
 ## 📊 **Dashboard Preview**
 
-*(Add your dashboard screenshot here after uploading)*
+<img width="2372" height="1385" alt="image" src="https://github.com/user-attachments/assets/1c924f5e-7fd0-456b-a9b7-82b95d869aa7" />
+
 
 ```
 📈 Call Trends | 📉 Drop-offs | ⭐ Ratings | 💸 Revenue | 👥 Top Performers
@@ -190,12 +187,4 @@ Feel free to connect for collaborations or feedback!
 
 ## ⭐ **If you find this project insightful, don’t forget to star the repo!**
 
----
 
-If you want, I can also create:
-✔ A very short compact version
-✔ A resume-friendly project summary
-✔ A Notion or portfolio-ready version
-✔ A cover image banner for GitHub
-
-Just tell me!
