@@ -1,198 +1,201 @@
-⭐ AstroSage Call Centre Data Analysis
-A Data-Driven Strategy Project by Vishal Ratnakar
-📌 Project Overview
+Here is a **premium, polished, GitHub-ready README.md** with a professional layout, badges, structured sections, and clean wording.
+This is suitable for employers, recruiters, and portfolio showcase.
+(Just paste into GitHub.)
 
-AstroSage is a leading online astrology platform founded in 2000 by Pt. Punit Pandey. After receiving a ₹1 crore investment, the company aims to optimize call centre performance, improve customer satisfaction, and maximize revenue.
-This project analyzes real call-centre data, identifies key operational gaps, discovers customer behavior patterns, and proposes a strategic investment plan.
+---
 
-📊 Dataset Information
+# 🌟 AstroSage Call Centre Data Analysis
 
-The dataset includes detailed call and chat session records:
+### **Optimizing Operations Through Data | By Vishal Ratnakar**
 
-chatStatus, callStatus – Status of chat/call
+<p align="center">
+  <img src="https://img.shields.io/badge/Tool-Excel-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Data%20Analytics-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Operations%20%7C%20Customer%20Insights-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Industry-Astrology%20Tech-purple?style=for-the-badge" />
+</p>
 
-guru, guruName, astrologerCallStatus – Astrologer information
+---
 
-consultationType (Chat/Call)
+## 📌 **Project Overview**
 
-chatSeconds / onCallDuration
+AstroSage, India’s leading online astrology platform, recently secured a **₹1 crore investment** to improve its call centre ecosystem. This project analyzes **real operational data** to uncover inefficiencies, evaluate performance, understand customer behavior, and build a strategic roadmap for maximizing ROI.
 
-amount, netAmount, astrologersEarnings
+The analysis blends **data cleaning, descriptive analytics, segmentation, and dashboarding** to deliver actionable, business-ready insights.
 
-region, website, callChannel, CreatedAt
+---
 
-rating
+## 📁 **Dataset Overview**
 
-userCallStatus
+The dataset includes detailed metadata for each call/chat interaction:
 
-The data captures call volume, user behavior, revenue, satisfaction, and operational performance.
+* User & astrologer details
+* Consultation type (Call / Chat)
+* Call/chat duration
+* Earnings, net revenue & payout
+* Call status & user experience
+* Platform/website source
+* Ratings & satisfaction signals
+* Time-based activity patterns
 
-🛠 Methodology
-1️⃣ Data Cleaning & Enrichment
+This multi-dimensional dataset enables operational, financial, and behavioral analysis.
 
-Removed duplicates
+---
 
-Normalized fields & corrected formats
+## 🛠 **Methodology**
 
-Used IF/ELSE logic for conditional classification
+### **1. Data Cleaning & Preparation**
 
-Added enriched fields for deeper insight
+* Removed duplicates, corrected inconsistent fields
+* Normalized timestamps & derived additional features
+* Conditional grouping using Excel functions (IF, IFS, XLOOKUP)
 
-2️⃣ Descriptive Analysis
+### **2. Exploratory & Descriptive Analysis**
 
-Pivot tables for KPI exploration
+* Built pivot tables for KPI tracking
+* Trend analysis for volume, performance & revenue
 
-Metric comparisons across agents, time, and platforms
+### **3. Behavioral Segmentation**
 
-3️⃣ Customer Segmentation
+* Identified repeat users vs one-time users
+* Clustered users based on call frequency & duration
 
-Grouped users based on call frequency, consultation type, duration
+### **4. Visualization & Dashboarding**
 
-Identified high-value repeat callers
+* Developed an interactive Excel dashboard
+* Visualized call flows, revenue trends, time-based patterns
 
-4️⃣ Dashboard & Visualization
+---
 
-Designed interactive dashboards
+## 🚀 **Key Insights**
 
-Presented trends: call volume, agent performance, revenue & ratings
+### 🔹 **1. Operational Efficiency**
 
-📈 Key Insights
-🔹 Operational Efficiency
+* **8,366 calls** analyzed over **34 days**
+* **148 active astrologers**
+* Avg calls per agent per day: **1.68**
+  📉 **Low utilization → High idle time → Optimization needed**
 
-Total Calls Analyzed: 8,366
+---
 
-Active Gurus: 148
+### 🔹 **2. Customer Behavior**
 
-Operational Days: 34
+* **Repeat users:** 1,276 (35%)
+* **Contribution to total calls:** 57%
+  🔥 **Repeat users = high-value segment driving majority business**
 
-Avg Calls per Day: 250
+---
 
-Avg Calls per Agent per Day: 1.68
-⚠️ Indicates low utilization → opportunity for shift optimization.
+### 🔹 **3. Revenue Insights**
 
-🔹 Repeat Caller Behavior
+* **Call Revenue:** ₹1,68,442.04
+* **Chat Revenue:** ₹45,494.68
+* **Total:** ₹2,13,936.72
+* **Astrologer Payout:** ₹99,146.57
+  💡 **Calls contribute ~79% of revenue → primary revenue engine**
 
-Total Unique Callers: 3,629
+---
 
-Repeat Users: 1,276 (35%)
+### 🔹 **4. Satisfaction & Ratings**
 
-Contribution to Calls: 57%
-🎯 Repeat users = High-value segment → strong retention opportunity.
+* Average Ratings dropped from **2.9 → 2.7**
+* Top performers: **Astro Pujaa Rai, Tarot Mystical**
+  ⚠️ Longer call duration does *not* correlate with better ratings
 
-🔹 Revenue Analysis
+---
 
-Call Revenue: ₹1,68,442.04
+### 🔹 **5. Call Completion Rate**
 
-Chat Revenue: ₹45,494.68
+* Only **40.77%** of booked calls are successfully completed
+  ❗ *Major operational bottleneck impacting revenue & experience*
 
-Total Revenue: ₹2,13,936.72
+---
 
-Astrologer Payout: ₹99,146.57
+### 🔹 **6. Platform/Website Performance**
 
-Revenue Share:
+* Majority traffic from **Gurucool**
+* Lowest satisfaction score: **2.72**
+  🎯 UI/UX redesign required for better engagement
 
-Calls: 78.7%
+---
 
-Chats: 21.3%
-💡 Call services generate the majority income; chat requires upgrade.
+## 💰 **₹1 Crore Investment Strategy**
 
-🔹 Customer Satisfaction
+### **1️⃣ Technology Upgrade — ₹40 Lakhs (40%)**
 
-Average Rating (Dec): 2.9
+* Revamp Gurucool chat interface
+* Introduce AI chatbots
+* Improve system stability
+  📈 *Boosts retention & user satisfaction*
 
-Average Rating (Jan): 2.7
+---
 
-Top Performers: Astro Pujaa Rai, Tarot Mystical
+### **2️⃣ Agent Training & Performance Coaching — ₹25 Lakhs (25%)**
 
-Weak correlation between call duration and rating
-⚠️ Quality matters more than call length.
+* Soft skills + technical handling
+* Rating-based targeted training
+  📈 *Improves call completion & customer experience*
 
-🔹 Call Completion Rate
+---
 
-Only 40.77% of booked calls are completed
-⚠️ Indicates UI issues, missing agents, or system drop-offs.
+### **3️⃣ Support Infrastructure & Security — ₹35 Lakhs (35%)**
 
-🔹 Platform Insights
+* Hire freelancers for peak hours
+* Strengthen data security & cloud backups
+* Implement automated feedback loops
+  📈 *Improves service quality & scalability*
 
-Gurucool is the most-used platform
+---
 
-Has low satisfaction scores (avg 2.72)
-➡️ Critical need for UI/UX redesign.
+## 📊 **Dashboard Preview**
 
-💰 Investment Strategy (₹1 Crore Allocation)
-1️⃣ Technology Upgrade – ₹40 Lakhs (40%)
+*(Add your dashboard screenshot here after uploading)*
 
-Upgrade chat platform (UI/UX)
+```
+📈 Call Trends | 📉 Drop-offs | ⭐ Ratings | 💸 Revenue | 👥 Top Performers
+```
 
-Introduce AI chatbots for faster resolution
+---
 
-Improve backend stability
-📈 Expected: Higher satisfaction & retention
+## 🔧 **Tools & Techniques**
 
-2️⃣ Agent Training – ₹25 Lakhs (25%)
+* **Excel** (Pivot Tables, Dashboards, Advanced Functions)
+* Segmentation Logic
+* Descriptive Statistics
+* Data Cleaning & Transformation
+* Visual Analytics
 
-Soft skills, upselling, and technical handling
+---
 
-Performance-based coaching
-📈 Expected: Higher call completion & customer satisfaction
+## 📦 **Repository Structure**
 
-3️⃣ Support Infrastructure & Security – ₹35 Lakhs (35%)
+```
+├── README.md
+├── AstroSage-Call-Centre-Data-Analysis.pptx
+├── dashboard/
+│   └── dashboard_screenshot.png (optional)
+└── data/
+    └── dataset.csv (optional)
+```
 
-Hire freelancers for peak hours
+---
 
-Cloud backup & security improvements
+## 👨‍💻 **Author**
 
-Automated feedback systems
-📈 Expected: Faster response time & better service quality
+**Vishal Ratnakar**
+Data Analyst | Excel Dashboards | Business Strategy | Insight Storytelling
+Feel free to connect for collaborations or feedback!
 
-📌 Conclusion
+---
 
-Calls generate ~79% revenue but only 41% of calls get completed → major operational gap
+## ⭐ **If you find this project insightful, don’t forget to star the repo!**
 
-Repeat callers drive over 57% of call volume → loyal segment to prioritize
+---
 
-Chat platform has low satisfaction → urgent need for redesign
+If you want, I can also create:
+✔ A very short compact version
+✔ A resume-friendly project summary
+✔ A Notion or portfolio-ready version
+✔ A cover image banner for GitHub
 
-Agent productivity is low → requires shift optimization & training
-
-This project provides actionable strategies to improve efficiency, customer satisfaction, revenue, and utilization while guiding AstroSage on how to effectively deploy its new investment.
-
-🖥 Dashboard
-
-The analytical dashboard highlights:
-
-Call & chat distribution
-
-Peak hours & monthly trends
-
-Revenue patterns
-
-Agent efficiency
-
-Satisfaction trends
-
-<img width="2372" height="1385" alt="image" src="https://github.com/user-attachments/assets/04daece3-27e9-4d52-a477-68e1beabfb5a" />
-
-
-🧑‍💻 Tools Used
-
-Microsoft Excel
-
-Pivot Tables
-
-Advanced Excel Functions (COUNTIF, IF, AVERAGE, DISTINCT, SORT, FILTER)
-
-Data Cleaning & Visualization
-
-📁 Project Files
-
-AstroSage-Call-Centre-Data-Analysis.pptx – Full presentation
-
-dashboard.png (optional)
-
-dataset.csv (if you add later)
-
-⭐ Author
-
-Vishal Ratnakar
-Data Analyst | Dashboard Design | Business Insights
+Just tell me!
